@@ -4,4 +4,5 @@ def tíz(lista):
     while(i < len(lista)-1 and not vanE):
         if lista[i] < 0 and (lista[i+1] and lista[i-1]) > 0:
             vanE = True
+        i+=1
     print(vanE)

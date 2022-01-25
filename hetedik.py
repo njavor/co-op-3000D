@@ -9,6 +9,6 @@ def hét(lista):
         if lista[i]<legkisebb:  
             legkisebb =lista[i]
             index =i
-            i+=1
+        i+=1
 
     print (index)
