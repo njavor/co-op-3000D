@@ -1,9 +1,5 @@
 #7. Mennyi a sorozatban található egyik legkisebb szám indexe?
 
-from csv import list_dialects
-from xml.dom.minidom import Element
-
-
 def hét(lista):
     index=0
     legkisebb = lista[0]
