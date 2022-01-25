@@ -13,3 +13,8 @@ Minden feladat előtt a program írja ki a feladat sorszámát!
 9. Hány eleme van a sorozatnak?
 10. Van-e a sorozatban olyan negatív szám, amelynek az összes szomszédja pozitív?
 """
+
+lista = []
+with open("input.txt","r",encoding="utf8") as f:
+    for sor in f:
+        lista.append(int(lista))
