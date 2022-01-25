@@ -4,7 +4,7 @@ def nyolc(lista):
     számolás=0
     
     for elem in lista:
-        if lista[i]%17==0 or lista[i]%18==0:
+        if elem%17==0 or elem%18==0:
             számolás+=elem
 
 
