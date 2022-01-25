@@ -1,4 +1,4 @@
 # 9. Hány eleme van a sorozatnak?
 
-def tíz(lista):
+def kilenc(lista):
     print(len(lista))
